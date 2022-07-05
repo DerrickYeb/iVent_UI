@@ -51,11 +51,6 @@ export default function Login() {
 
     return (
         <div className="w-screen flex h-screen">
-            <div className="flex-none w-3/5 bg-auto bg-no-repeat bg-center bg-gray-100" style={{
-                backgroundImage: `url(${LeftImg})`
-            }}>
-
-            </div>
             <div className="w-2/5 flex-grow flex items-center justify-center p-8 bg-white">
 
                 <div className="flex flex-col space-y-2 w-full">
@@ -86,6 +81,11 @@ export default function Login() {
                     />
                     <Button loading={isWorking} onClick={() => handleLogin()}>Login</Button>
                 </div>
+            </div>
+            <div className="flex-none w-3/5 bg-auto bg-no-repeat bg-center bg-gray-100" style={{
+                backgroundImage: `url(${LeftImg})`
+            }}>
+
             </div>
         </div>
     );
