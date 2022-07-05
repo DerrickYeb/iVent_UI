@@ -92,9 +92,11 @@ function App() {
                     Button: (theme) => ({
                         //root: {height: 35, padding: '0 15px', backgroundColor: theme.colors.teal[6]},
                         filled: {
-                            backgroundColor: theme.colors.teal[6],
+                            //backgroundColor: theme.colors.teal[6],
+                            backgroundColor:"#582A72",
                             '&:hover': {
-                                backgroundColor: theme.colors.teal[7],
+                                // backgroundColor: theme.colors.teal[7],
+                                backgroundColor:"#582A47"
                             },
                         },
                     }),

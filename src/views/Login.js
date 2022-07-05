@@ -79,7 +79,7 @@ export default function Login() {
                         size="md"
                         required
                     />
-                    <Button loading={isWorking} onClick={() => handleLogin()}>Login</Button>
+                    <Button  loading={isWorking} onClick={() => handleLogin()}>Login</Button>
                 </div>
             </div>
             <div className="flex-none w-3/5 bg-auto bg-no-repeat bg-center bg-gray-100" style={{

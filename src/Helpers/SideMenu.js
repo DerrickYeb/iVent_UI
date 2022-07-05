@@ -23,7 +23,7 @@ export default function SideMenu({children, title = "Dashboard"}) {
             navbarOffsetBreakpoint="sm"
             // fixed prop on AppShell will be automatically added to Header and Navbar
             fixed
-            padding={0}
+            padding={0} 
             navbar={
                 <Navbar
                     //component={ScrollArea}
@@ -37,7 +37,8 @@ export default function SideMenu({children, title = "Dashboard"}) {
                     // viewport size > theme.breakpoints.lg – width is 400px
                     width={{sm: 300, lg: 250}}
                     style={{
-                        backgroundColor: "#36A692",
+                        // backgroundColor: "",
+                        backgroundColor:"#582A72"
                     }}
                 >
                     <DashboardMenuItem/>
