@@ -45,7 +45,7 @@ export default function ViewSingleInvoice(props) {
 
 
     return <SideMenu title={"Invoice for"}>
-        <PartialHeader title={"Invoice #" + id} icon={<div className="p-1.5 rounded-full bg-green-50">
+        <PartialHeader title={"Invoice #" + id} icon={<div className="p-1.5 rounded-full bg-purples-50">
             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24"
                  stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round"
@@ -61,7 +61,7 @@ export default function ViewSingleInvoice(props) {
                             size={"xs"}>Back</Button>
                 </div>
                 <div>
-                    <Button onClick={() => history.push(NewInvoiceUrl)} className="bg-green-500" leftIcon={<Plus/>}
+                    <Button onClick={() => history.push(NewInvoiceUrl)} className="bg-purple-500" leftIcon={<Plus/>}
                             size={"xs"}>New</Button>
                 </div>
             </div>

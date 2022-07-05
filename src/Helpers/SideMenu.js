@@ -38,7 +38,10 @@ export default function SideMenu({children, title = "Dashboard"}) {
                     width={{sm: 300, lg: 250}}
                     style={{
                         // backgroundColor: "",
-                        backgroundColor:"#582A72"
+                        backgroundColor:"#582A72",
+                        '&:hover':{
+                            backgroundColor:"#582A47"
+                        }
                     }}
                 >
                     <DashboardMenuItem/>

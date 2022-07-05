@@ -35,7 +35,7 @@ export default function ViewNewInventory() {
                         <span className="font-medium text-xl">Item</span>
                         <img src={SingeItemImg} className="h-20 w-auto object-cover" alt={""}/>
                         <span className="text-center">Create a single item that you buy and sell.</span>
-                        <Button className="bg-green-500">New Item</Button>
+                        <Button style={{backgroundColor:"#582A72"}}>New Item</Button>
                     </div>
                 </div>
         </div>
