@@ -24,7 +24,7 @@ export default function NewUserPartial() {
     const [phone, setphone] = useState("");
     const [department, setDepartment] = useState("");
     const [designation, setDesignation] = useState("");
-    const [avatar, setAvatar] = useState(DefaultUserImg);
+    const [avatar, setAvatar] = useState('');
     const [password, setPassword] = useState("");
     const [userType, setUserType] = useState("Staff");
     const [status, setStatus] = useState(true);
