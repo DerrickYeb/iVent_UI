@@ -42,7 +42,8 @@
     "swr": "^1.2.0",
     "tabler-icons-react": "^1.44.0",
     "uuid": "^8.3.2",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "yarn": "^1.22.19"
   },
   "scripts": {
     "start": "react-scripts start",
