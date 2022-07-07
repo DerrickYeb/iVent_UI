@@ -28,7 +28,7 @@ export default function FirstTimeLoginPasswordChangeView(props) {
             key={location.key}>
             {/*    logo*/}
             <div>
-                <img src={Logo} className="h-32 w-full" alt=""/>
+                <img src='' className="h-32 w-full" alt=""/>
             </div>
             {/*avatar*/}
             <div className="border border-gray-200 p-1 rounded-full shadow-lg">

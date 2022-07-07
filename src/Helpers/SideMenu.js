@@ -56,10 +56,20 @@ export default function SideMenu({children, title = "Dashboard"}) {
                 </Navbar>
             }
             header={
-                <Header height={79} padding="0">
+                <Header height={40} padding="0">
                     {/* Handle other responsive styles with MediaQuery component or createStyles function */}
+                   
                     <div style={{height: '100%'}}>
-                        <div className="flex items-center justify-between bg-gray-700">
+                        <div className="flex items-center justify-between" style={{backgroundColor:"#582A72"}}>
+                        <MediaQuery largerThan="sm" style={{display:"none"}}>
+                    <Burger
+                    opened={opened}
+                    onClick={() => setOpened(!opened)}
+                    size="sm"
+                    mr="xl"
+                    color="white" 
+                    />
+                    </MediaQuery>
                             {/*    left*/}
                             <div>
                                 <TitleAndLogoWidget/>
