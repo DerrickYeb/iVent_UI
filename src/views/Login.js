@@ -65,13 +65,13 @@ export default function Login() {
                         onChange={(e) => setUsername(e.target.value)}
                         variant="filled"
                         size="md"
-                        placeholder="Enter username"
+                        placeholder="Enter username or enter test as guest username"
                         label="Enter username"
                         required
                     />
 
                     <PasswordInput
-                        placeholder="Enter password"
+                        placeholder="Enter password or enter test as guest password"
                         label="Enter password"
                         value={pwd}
                         onChange={(e) => setPwd(e.currentTarget.value)}
