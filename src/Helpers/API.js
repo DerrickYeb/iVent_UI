@@ -1,8 +1,8 @@
 import axios from "axios";
 import { GetUsername, SetToken } from "./AuthService";
 
-const API_URL = "https://myinventappbackend.azurewebsites.net";
-//const API_URL = "http://localhost/defuagapi";
+// const API_URL = "https://myinventappbackend.azurewebsites.net";
+const API_URL = "http://localhost/defuagapi";
 
 export async function LoginApi(username, password) {
   let payload = {

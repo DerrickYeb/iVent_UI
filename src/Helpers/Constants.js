@@ -225,9 +225,7 @@ export function InvoiceStatusArr() {
 }
 
 export async function downloadAsPdf(element, fileName = "pdf export") {
-    //const ele = document.getElementById("invoice-wid");
     htmlToImage.toPng(element, {quality: 0.95}).then((canvasResult) => {
-        // const imgData = canvasResult.toDataURL('image/png');
         const doc = new jsPDF('p', 'pt', 'a4', false);
         doc.addImage(canvasResult, 'PNG', 10, 10);
         doc.save(`${fileName}.pdf`);
